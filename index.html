@@ -40,36 +40,161 @@
       <p class="affiliation"><a href="http://idlab.technology/">Ghent University – imec – IDLab, Belgium</a></p>
     </section>
 
-    <section id="start" class="slide" style="background-image: url('img/TODO.jpg')" inlist="" rel="schema:hasPart" resource="#start">
-        <h2 property="schema:name" class="big" style="margin-top: 20px; color: white; text-shadow: 2px 2px black">INTRO</h2>
-        <ul style="color: white; text-shadow: 2px 2px black; font-size: 1.3em">
-            <li>TODO</li>
+    <section id="start" class="slide" inlist="" rel="schema:hasPart" resource="#start">
+        <h2 property="schema:name" class="big" style="margin-top: 20px; font-size: 3em">Solid</h2>
+        <h3 style="font-size: 1.8em; margin-top: -15px">a Web-based decentralization ecosystem</h3>
+        <ul style="font-size: 1.3em">
+            <li><h3 style="color:black">Users are in full control over their own data</h3></li>
+            <li><h3 style="color:black">Built on open standards</h3></li>
+            <li><h3 style="color:black">Compatible with Web technologies</h3></li>
         </ul>
+        <img src="img/solid-logo.svg" alt="Solid Logo" width="200px" style="float:right; margin-top: -150px" />
     </section>
 	
     <section id="index" class="slide index" inlist="" rel="schema:hasPart" resource="#index">
       <ul>
-        <li><a href="#index-a">TODO</a></li>
-		<li><a href="#index-b">TODO</a></li>
+        <li><a href="#index-motivations">Motivations for Solid</a></li>
+		<li><a href="#index-how">How Solid works</a></li>
+        <li><a href="#index-next">Next steps and open challenges</a></li>
       </ul>
     </section>
     
-    <section id="index-a" class="slide index" inlist="" rel="schema:hasPart" resource="#index-a">
+    <section id="index-motivations" class="slide index" inlist="" rel="schema:hasPart" resource="#index-motivations">
       <ul>
-        <li class="current"><a href="#index-a">TODO</a></li>
-		<li><a href="#index-b">TODO</a></li>
+        <li class="current"><a href="#index-motivations">Motivations for Solid</a></li>
+		<li><a href="#index-how">How Solid works</a></li>
+        <li><a href="#index-next">Next steps and open challenges</a></li>
       </ul>
     </section>
+    
+    <section id="web-timbl-cern" class="slide" inlist="" rel="schema:hasPart" resource="#web-timbl-cern" style="background-image: url('img/timbl_cern.jpg'); background-size: cover">
+        <h2 class="big" style="margin-top: 20px; color: white; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;" property="schema:name">1989, CERN Switzerland</h2>
+        <h3 class="indent" style="color: white; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; width: 600px; font-style: italic">Tim Berners-Lee<br />inventor of the World Wide Web</h3>
+    </section>
+    
+    <section id="web-timbl-cern-proposal" class="slide" inlist="" rel="schema:hasPart" resource="#web-timbl-cern-proposal" style="background-image: url('img/webproposal.gif'); background-size: 800px; background-repeat: no-repeat; background-position: center top; background-color: white">
+
+    </section>
 	
-    <section id="some-slide" class="slide" inlist="" rel="schema:hasPart" resource="#some-slide">
-      <h2 property="schema:name">TODO: A regular slide</h2>
+    <section id="web-timbl-cern-proposal-contents" class="slide" inlist="" rel="schema:hasPart" resource="#web-timbl-cern-proposal-contents">
+      <h2 property="schema:name">The Web's foundational ideas</h2>
       <ul>
           <li>
-          	  <h3>A</h3>
-			  <span class="indent">TODO: Description</span>
+          	  <h3>Data is linked to each other</h3>
+			  <span class="indent">Across heterogeneous systems (<em>non-centralisation</em>)</span>
           </li>
-          <li>B</li>
-          <li>C</li>
+          <li>
+          	  <h3>Browser programs</h3>
+			  <span class="indent">Visualises data and helps users navigating the Web</span>
+          </li>
+          <li>
+          	  <h3>Everyone can read <em>and</em> write data</h3>
+			  <span class="indent">Web browsers are editors</span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="web-adoption" class="slide" inlist="" rel="schema:hasPart" resource="#web-adoption" style="background-image: url('img/globe.jpg'); background-size: cover">
+        <h2 class="big" style="margin-top: 20px; color: white; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;" property="schema:name">1990-... World-wide adoption</h2>
+        <h3 class="indent" style="color: white; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; width: 600px; font-style: italic">Not just for researchers anymore</h3>
+    </section>
+    
+    <section id="browser-wars" class="slide" inlist="" rel="schema:hasPart" resource="#browser-wars" style="background-image: url('img/browser-wars.png'); background-size: cover">
+        <h2 class="big" style="margin-top: 20px; color: white; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;" property="schema:name">The Browser Wars (1995 - 2017)</h2>
+        <h3 class="indent" style="color: white; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; width: 600px; font-style: italic">Ended with Chrome's dominance by 2017</h3>
+        <p style="margin-top: 300px; width: 100%; text-align: right;"><a href="https://comic.browserling.com/84" style="color: white">Image credit</a></p>
+    </section>
+    
+    <section id="write-part-lost" class="slide" inlist="" rel="schema:hasPart" resource="#write-part-lost">
+      <h2 property="schema:name">The "write" part got lost along the way</h2>
+      <ul>
+          <li>
+          	  <h3>The first Web browser was also an editor</h3>
+			  <span class="indent">Web is a collaborative space</span>
+          </li>
+          <li>
+          	  <h3>The next Web browsers took out the "write" part</h3>
+			  <span class="indent">It was considered too difficult</span><br \>
+              <span class="indent"><em>How to represent permissions and identity in a decentralized way?</em></span>
+          </li>
+          <li>
+          	  <h3>Web initially became popular as read-only</h3>
+			  <span class="indent">Static websites</span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="web-2" class="slide" inlist="" rel="schema:hasPart" resource="#web-2">
+      <h2 property="schema:name">Web 2.0: Getting back the "write" part</h2>
+      <ul>
+          <li>
+          	  <h3>The first social networks</h3>
+			  <span class="indent">Users could easily write their own content</span>
+          </li>
+          <li>
+          	  <h3>Centralised identity and access control</h3>
+			  <span class="indent">Each Web application has its own system for editing</span></br >
+              <span class="indent">Non-interoperable systems &rarr; data silos</span>
+          </li>
+      </ul>
+      <center><img src="img/social-media.jpg" alt="Social Media" style="width: 250px;"></center>
+    </section>
+    
+    <section id="centralised-problems" class="slide" inlist="" rel="schema:hasPart" resource="#centralised-problems" style="font-size: 0.9em">
+      <h2 property="schema:name">Problems with centralized Web apps</h2>
+      <ul>
+          <li>
+          	  <h3>Not in control of personal information</h3>
+			  <span class="indent">Centralized data storage simplifies abuse of information <em>(PRISM, GDPR)</em></span>
+          </li>
+          <li>
+          	  <h3>Vendor lock-in</h3>
+			  <span class="indent">Companies incentivised to make users dependent on products. <em>non-interoperability</em></span>
+          </li>
+          <li>
+          	  <h3>Censorship and influence of content</h3>
+			  <span class="indent">Suppression of non-aligned ideas. <em>(filter bubbles)<</em>/span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="solid-start" class="slide" inlist="" rel="schema:hasPart" resource="#solid-start">
+      <h2 property="schema:name">Start of the Solid project</h2>
+      <ul>
+          <li>
+          	  <h3>2016: Solid was initiated at MIT by Tim Berners-Lee</h3>
+			  <span class="indent">A course-correction for the Web</span><br \>
+              <span class="indent">Attempt to solve the many that arose as a consequence of centralisation</span>
+          </li>
+          <li>
+          	  <h3>2018: Inrupt was founded by John Bruce and Tim Berners-Lee</h3>
+			  <span class="indent">Commercial entity to drive the Solid ecosystem</span>
+          </li>
+      </ul>
+      <img src="img/solid-logo.svg" alt="Solid Logo" width="200px" style="float:right" />
+    </section>
+    
+    <section id="index-how" class="slide index" inlist="" rel="schema:hasPart" resource="#index-how">
+      <ul>
+        <li><a href="#index-motivations">Motivations for Solid</a></li>
+		<li class="current"><a href="#index-how">How Solid works</a></li>
+        <li><a href="#index-next">Next steps and open challenges</a></li>
+      </ul>
+    </section>
+    
+    <section id="index-next" class="slide index" inlist="" rel="schema:hasPart" resource="#index-next">
+      <ul>
+        <li><a href="#index-motivations">Motivations for Solid</a></li>
+		<li><a href="#index-how">How Solid works</a></li>
+        <li class="current"><a href="#index-next">Next steps and open challenges</a></li>
+      </ul>
+    </section>
+    
+    <section id="index-final" class="slide index" inlist="" rel="schema:hasPart" resource="#index-final">
+      <ul>
+        <li><a href="#index-motivations">Motivations for Solid</a></li>
+		<li><a href="#index-how">How Solid works</a></li>
+        <li><a href="#index-next">Next steps and open challenges</a></li>
       </ul>
     </section>
 	
