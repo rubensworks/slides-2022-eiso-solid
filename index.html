@@ -299,6 +299,158 @@
       </ul>
     </section>
     
+    <section id="next-overview" class="slide" inlist="" rel="schema:hasPart" resource="#next-overview">
+      <h2 property="schema:name">Next steps for Solid</h2>
+      <ul>
+          <li>
+          	  <h3>Work on standards</h3>
+			  <span class="indent">Filling in the missing pieces</span>
+          </li>
+          <li>
+          	  <h3>Creating personal data pods</h3>
+			  <span class="indent">Writing efficient software to host Solid data pods</span>
+          </li>
+          <li>
+          	  <h3>Effectively building apps</h3>
+			  <span class="indent">Creating new techniques to create apps in a decentralised ecosystem</span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="next-standards" class="slide" inlist="" rel="schema:hasPart" resource="#next-standards">
+      <h2 property="schema:name">Existing and new standards</h2>
+      <ul>
+          <li>
+          	  <h3>The foundational standards are in place</h3>
+			  <span class="indent">Data representation (RDF)</span><br \>
+              <span class="indent">Querying (SPARQL)</span><br \>
+              <span class="indent">Web Publishing (Linked Data Platform)</span>
+          </li>
+          <li>
+          	  <h3>Other standards are still in-progress</h3>
+			  <span class="indent">Authentication (WebID)</span><br \>
+              <span class="indent">Authorization (WAC)</span><br \>
+              <span class="indent">Cryptographic signatures</span><br \>
+              <span class="indent">Interoperability</span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="next-standards-contribute" class="slide" inlist="" rel="schema:hasPart" resource="#next-standards-contribute">
+      <h2 property="schema:name">Standards are created collaboratively</h2>
+      <img src="img/w3c.svg" alt="W3C" width="200px" style="float: right" />
+      <ul>
+          <li>
+          	  <h3>World Wide Web Consortium (W3C)</h3>
+			  <span class="indent">International standards organisation for the Web</span><br \>
+              <span class="indent">Founded in 1994 by Tim Berners-Lee</span>
+          </li>
+          <li>
+          	  <h3>Solid Community Group</h3>
+			  <span class="indent">Hundreds of members world-wide</span><br \>
+              <span class="indent">Span different companies, organisations, and universities</span><br \>
+              <span class="indent">Different panels, each with a specific focus</span><br \>
+              <span class="indent"><a href="https://www.w3.org/community/solid/">https://www.w3.org/community/solid/</a></span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="next-pod-software" class="slide" inlist="" rel="schema:hasPart" resource="#next-pod-software">
+      <h2 property="schema:name">Choose your Solid pod implementation</h2>
+      <h3>Actively being developed by different parties</h3>
+      <ul>
+          <li>
+          	  <h3>Community Solid Server</h3>
+			  <span class="indent">Open-source</span><br \>
+              <span class="indent"><a href="https://github.com/CommunitySolidServer/CommunitySolidServer">https://github.com/CommunitySolidServer/CommunitySolidServer</a></span>
+          </li>
+          <li>
+          	  <h3>Enterprise Solid Server</h3>
+			  <span class="indent">Commercial (by Inrupt)</span><br \>
+              <span class="indent"><a href="https://inrupt.com/products/enterprise-solid-server/">https://inrupt.com/products/enterprise-solid-server/</a></span>
+          </li>
+          <li>
+          	  <h3><em>Anyone can implement a Solid pod server</em></h3>
+              <span class="indent"><a href="https://solidproject.org//self-hosting/css">https://solidproject.org//self-hosting/css</a></span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="next-pod-services" class="slide" inlist="" rel="schema:hasPart" resource="#next-pod-services">
+      <h2 property="schema:name">Choose your Solid pod location</h2>
+      <ul>
+          <li>
+          	  <h3>Self-hosting</h3>
+			  <span class="indent">On your own machine</span><br \>
+              <span class="indent">In full control</span>
+          </li>
+          <li>
+          	  <h3>Free hosting</h3>
+			  <span class="indent">Free, but with limitations</span><br \>
+              <span class="indent"><a href="https://solidcommunity.net/">https://solidcommunity.net/</a></span><br \>
+              <span class="indent"><em>Government-provided?</em></span>
+          </li>
+          <li>
+          	  <h3>Rent hosting</h3>
+              <span class="indent">Pay for less limitations and guaranteed availability</span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="next-build-apps" class="slide" inlist="" rel="schema:hasPart" resource="#next-build-apps" style="font-size: 0.95em">
+      <h2 property="schema:name">How to build apps on top of Solid?</h2>
+      <h3>Apps need to be able to access <em>multiple</em> pods</h3>
+      <ul>
+          <li>
+          	  <h3>Today: centralized apps assume a single data source</h3>
+			  <span class="indent">Techniques for retrieving data are simple</span>
+          </li>
+          <li>
+          	  <h3>Future: decentralized apps combine data across multiple data sources</h3>
+			  <span class="indent">New techniques are required</span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="next-centralized-app" class="slide" inlist="" rel="schema:hasPart" resource="#next-centralized-app">
+      <h2 property="schema:name">A centralised social network app</h2>
+      <h3>Data is obtained from <em>a single</em> location</h3>
+      <center><img src="img/social-app.svg" alt="Social App" width="450px" /></center>
+    </section>
+    
+    <section id="next-decentralized-app" class="slide" inlist="" rel="schema:hasPart" resource="#next-decentralized-app">
+      <h2 property="schema:name">A decentralised social network app</h2>
+      <h3>Data is obtained from <em>multiple</em> locations</h3>
+      <p>Each data element can be stored in a different place (posts, comments, likes, ...)</p>
+      <img src="img/social-app.svg" alt="Social App" width="450px" style="float: right" />
+      <ul>
+          <li>~100 friends</li>
+          <li>~1.000 posts</li>
+          <li>~10.000 comments</li>
+          <li>~100.000 likes</li>
+          <li>&rarr; millions of data sources to access</li>
+      </ul>
+    </section>
+    
+    <section id="next-scaling" class="slide" inlist="" rel="schema:hasPart" resource="#next-scaling">
+      <h2 property="schema:name">How to find data across a massive number of sources?</h2>
+      <h3><em>Open research questions</em></h3>
+      <ul>
+          <li>
+          	  <h3>Finding data pods on-the-fly</h3>
+			  <span class="indent">No centralised index is available</span>
+          </li>
+          <li>
+          	  <h3>Prioritisation and parallelisation</h3>
+			  <span class="indent">E.g., posts from friends may be preferred</span>
+          </li>
+          <li>
+          	  <h3>Hiding complexities from app developer</h3>
+			  <span class="indent">Finding data is complex &rarr; abstract into reusable software libraries</span>
+          </li>
+      </ul>
+    </section>
+    
     <section id="index-final" class="slide index" inlist="" rel="schema:hasPart" resource="#index-final">
       <ul>
         <li><a href="#index-motivations">Motivations for Solid</a></li>
